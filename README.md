@@ -67,20 +67,20 @@ self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 * Download the code from github and include the files into your project.
 * Include following header files into `AppModule-Bridging-Header.h`
 ```ruby
-#import "MovableEditorView.h"
-#import "Scribble.h"
-#import "ScribbleEraseView.h"
-#import "ScribblePathPoint.h"
-#import "CommonMacro.h"
-#import "ScribCapControl.h"
-#import "SnapShotView.h"
-#import "TattleControl.h"
-#import "TAudioManager.h"
-#import "TConstants.h"
-#import "TFileManager.h"
-#import "TPopupView.h"
-#import "UIController+SnapShotButton.h"
-#import "UIImage+GiffAnimation.h"
+# import "MovableEditorView.h"
+# import "Scribble.h"
+# import "ScribbleEraseView.h"
+# import "ScribblePathPoint.h"
+# import "CommonMacro.h"
+# import "ScribCapControl.h"
+# import "SnapShotView.h"
+# import "TattleControl.h"
+# import "TAudioManager.h"
+# import "TConstants.h"
+# import "TFileManager.h"
+# import "TPopupView.h"
+# import "UIController+SnapShotButton.h"
+# import "UIImage+GiffAnimation.h"
 ```
 * Invoke `enableTattleToWindow:` method, after main window creation.
 ```ruby
@@ -96,20 +96,20 @@ pod 'Tattle-UI-iOS', '~> 1.0.2'
 ```
 * Include following header files into `AppModule-Bridging-Header.h`
 ```ruby
-#import "MovableEditorView.h"
-#import "Scribble.h"
-#import "ScribbleEraseView.h"
-#import "ScribblePathPoint.h"
-#import "CommonMacro.h"
-#import "ScribCapControl.h"
-#import "SnapShotView.h"
-#import "TattleControl.h"
-#import "TAudioManager.h"
-#import "TConstants.h"
-#import "TFileManager.h"
-#import "TPopupView.h"
-#import "UIController+SnapShotButton.h"
-#import "UIImage+GiffAnimation.h"
+# import "MovableEditorView.h"
+# import "Scribble.h"
+# import "ScribbleEraseView.h"
+# import "ScribblePathPoint.h"
+# import "CommonMacro.h"
+# import "ScribCapControl.h"
+# import "SnapShotView.h"
+# import "TattleControl.h"
+# import "TAudioManager.h"
+# import "TConstants.h"
+# import "TFileManager.h"
+# import "TPopupView.h"
+# import "UIController+SnapShotButton.h"
+# import "UIImage+GiffAnimation.h"
 ```
 * Invoke `enableTattleToWindow:` method, after main window creation.
 ```ruby
